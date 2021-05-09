@@ -1,4 +1,4 @@
-# I also make a program to print the data using pdf file but i need to print the data without using pdf file  
+# I have a program to print the data using pdf file but i need to print the data without using pdf file  
 
 from tkinter import *
 
