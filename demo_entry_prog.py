@@ -3,7 +3,14 @@
 from tkinter import *
 
 def print_data(): # this function print the hole data into page
-    pass
+    print("Name : " , name_value.get())
+    print("Address : " , address_text.get(1.0 , "end-1c"))
+
+    if var_gender.get() == 1:
+        print("Gender : Boy")
+    else:
+        print("Gender : Girl")
+        
 
 root = Tk()
 root.title("Print Data")
